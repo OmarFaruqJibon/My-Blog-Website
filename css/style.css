@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common style */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 870px;
+}
+/*----------------
+ Header section styles 
+ -------------------*/
+
+ .header-wrap{
+    margin-bottom: 55px;
+ }
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px 27px 60px;
+}
+.header-top-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-logo{
+    margin-right: 65px;
+}
+nav .menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    padding-right: 40px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #41226d; 
+}
+.menu li a:hover{
+    color: orangered; 
+}
+.menu li:first-child a{
+    color: orangered;
+}
+
+.author-sms{
+    color: black;
+}
+.header-bottom{
+    position: relative;
+}
+.header-bottom img{
+    width: 100%;
+}
+
+.header-title {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    color: white;
+}
+.header-title h1{
+    font-size: 68px;
+    line-height: 69px;
+    margin-bottom: 0px;
+}
+
+
+
+/* main section style */
+main{
+    padding-bottom: 150px;
+    border-bottom: 1px solid #41226d;
+}
+.blog-category{
+    margin-bottom: 48px;
+}
+.blog-category a{
+    text-decoration: none;
+    color: black;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.blog-category a:first-child{
+    color: orangered;
+    padding-left: 0px;
+}
+.blog-category a.active {
+    color: orangered;
+}
+.blog-category a:hover{
+    color: orangered;
+}
+
+article{
+    display: flex;
+    margin-bottom: 35px;
+}
+.blog-thumbnail img{
+    width: 305px;
+    margin-right: 60px;
+}
+.blog-info h3{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.blog-type{
+    margin-top: 0;
+    color: orangered;
+    font-size: 12px;
+}
+.blog-about{
+    margin-top: 0;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.pagination {
+    display: inline-block;
+    padding-top: 35px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 6px 20px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+  }
+  .pagination a:nth-child(2) {
+    background-color: #006983;
+    color: white;
+  }
+  .pagination a.active {
+    background-color: #006983;
+    color: white;
+  }
+
+
+  /* Footer section style */
+ 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    color: #41226d;
+}
+
+.contact-details{
+    padding-left: 28px;
+}
+.contact-details p{
+    font-size: 13px;
+}
